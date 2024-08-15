@@ -21,7 +21,7 @@ html {
 .todo-section .todo-inputs {
     width: 400px;
     margin: 0 auto;
-}
+} 
 
 .todo-section .todo-inputs form {
     display: flex;
@@ -136,4 +136,19 @@ html {
 .completed {
     text-decoration: line-through;
     letter-spacing: 0.3rem;
+}
+
+@media(max-width: 450px){
+    .todo-section .todo-inputs{
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    .todo-section .todo-menus{
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    .todo-section .todo-lists{
+        width: 100%;
+        padding: 0 1.5rem;
+    }
 }
